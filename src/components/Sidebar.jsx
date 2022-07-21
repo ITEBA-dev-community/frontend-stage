@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom'
 const sidebarLink = [
   {
     name : 'FAQ',
-    icon: '/images/faq-icon.svg',
+    icon: '/assets/images/faq-icon.svg',
     target: '/faq'
   },
   {
     name: 'Hubungi Admin',
-    icon: '/images/admin-contact.svg',
+    icon: '/assets/images/admin-contact.svg',
     target: '/admin-contact'
   },
   {
     name: 'About',
-    icon: '/images/about-icon.svg',
+    icon: '/assets/images/about-icon.svg',
     target: '/about'
   }
 ]
@@ -26,10 +26,10 @@ function Sidebar({userInfo}) {
 
         <div className="flex justify-between items-center mt-4">
           <button>
-            <img src="/images/back-arrow-icon.svg" className="w-8" />
+            <img src="/assets/images/back-arrow-icon.svg" className="w-8" />
           </button>
           <Link to="/">
-            <img src="/images/logo.svg" className="w-36" />
+            <img src="/assets/images/logo.svg" className="w-36" />
           </Link>
         </div>
 
@@ -54,7 +54,7 @@ function Sidebar({userInfo}) {
 
         <button className="absolute bottom-10 p-2 border  rounded-lg border-slate-300 text-white flex justify-center items-center w-full">
           <p className='font-poppins'>Logout</p>
-          <img src='/images/logout-icon.svg' className='absolute right-7' />
+          <img src='/assets/images/logout-icon.svg' className='absolute right-7' />
         </button>
         
       </div>
