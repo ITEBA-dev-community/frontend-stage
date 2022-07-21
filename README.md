@@ -1,1 +1,1 @@
-# What's Up? Coding again, aren't we?
+# Coding Again? Get a Life!
