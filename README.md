@@ -1,4 +1,4 @@
-# Batam Institute of Technology, Electronic Library App
+# Batam Institute of Technology, Electronic Library App.
 This repository is the front-side or you might refer to it as the front-end, it's developed with React as the core technology. This app was designed to solve the tedious work of borrowing a book. 
 <br><br>
 You know, where you must go the library, fill an endless form, just to borrow a single book, not to mention several books. Simplicity is the best.
