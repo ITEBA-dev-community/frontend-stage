@@ -6,24 +6,35 @@ You know, where you must go the library, fill an endless form, just to borrow a 
 ![view](https://user-images.githubusercontent.com/40969170/180212768-684d1173-bca0-491c-8c91-5aeeb3ee12a4.png)
 <br>
 
+## How to get started
+<ul>
+  <li>Open your terminal</li>
+  Note: this guide runs well on git bash, bash, Zshell, gnome-terminal, and most linux distribution terminals, but it'll probably not gonna work on powershell or cmd
+  <li>Make sure you have node JS and git installed, you can check it by running <code>node --version</code> and <code>git --version</code>.</li>
+  <li>Clone the repository by typing <code>git clone https://github.com/ITEBA-dev-community/frontend-stage.git</code>.</li>
+  <li>Get into the directory by typing <code>cd frontend-stage</code> if you are on linux or git bash terminal.</li>
+  <li>Install all dependency by running <code>npm i</code>, it may take a while.</li>
+  <li>Finnaly, run <code>npm start</code> and it will automatically open a new browser.</li>
+  If it's not opening new browser window got to <code>http://localhost:3000/</code> , it's probably there or on another port.
+</ul>
+
 ## Technologies
 <ul>
   <li>React JS</li>
-  Check the documentation <a href="https://reactjs.org/docs/getting-started.html">Here</a>.
+  check the documentation <a href="https://reactjs.org/docs/getting-started.html">here</a>.
   <li>Tailwind CSS</li>
-  Check the documentation <a href="https://tailwindcss.com/docs/installation">Here</a>.
+  check the documentation <a href="https://tailwindcss.com/docs/installation">here</a>.
   <li>SASS</li>
-  Check the documentation <a href="https://sass-lang.com/documentation/">Here</a>.
+  check the documentation <a href="https://sass-lang.com/documentation/">here</a>.
   <li>React Router</li>
-  Check the documentation <a href="https://reactrouter.com/docs/en/v6">Here</a>.
+  check the documentation <a href="https://reactrouter.com/docs/en/v6">here</a>.
   <li>Axios</li>
-  Check the documentation <a href="https://axios-http.com/docs/intro">Here</a>.
+  check the documentation <a href="https://axios-http.com/docs/intro">here</a>.
   <li>TypeScript</li>
-  Check the documentation <a href="https://www.typescriptlang.org/docs/">Here</a>.
+  check the documentation <a href="https://www.typescriptlang.org/docs/">here</a>.
 </ul>
 
 ## Contributors for Frontend
-<ul>
-  <li><a href="https://github.com/AndyNotfound">@AndyNotfound</a></li>
-  <li><a href="https://github.com/Muhamadzulfikar">@Muhamad Zulfikar</a></li>
-</ul>
+<a href="https://github.com/AndyNotfound">@AndyNotfound</a> 
+<br>
+<a href="https://github.com/Muhamadzulfikar">@Muhamad Zulfikar</a>
