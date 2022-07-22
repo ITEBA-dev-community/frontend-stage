@@ -42,9 +42,9 @@ function Sidebar({userInfo}) {
         </div>
 
         <div className="flex flex-col gap-6">
-        {sidebarLink.map((link) => {
+        {sidebarLink.map((link, index) => {
           return(
-            <div className='flex justify-start items-center gap-6'>
+            <div key={index} className='flex justify-start items-center gap-6'>
               <img src={link.icon} className="w-8" />
               <Link to={link.target} className="text-white font-poppins" >{link.name}</Link>
             </div>
