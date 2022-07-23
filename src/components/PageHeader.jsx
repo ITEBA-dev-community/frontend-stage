@@ -7,7 +7,7 @@ function PageHeader({previousUrl, label}) {
         <Link to={previousUrl}>
             <img src='/assets/images/single-back-arrow-icon.svg' className='absolute left-8 bottom-8' />
         </Link>
-        <h2 className='text-lg font-poppins font-medium align-middle'>{label}</h2>
+        <h2 className='text-xl font-poppins font-medium align-middle'>{label}</h2>
     </div>
   )
 }

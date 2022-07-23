@@ -10,7 +10,7 @@ function TopNav({label}) {
         </div>
         <div className="relative w-10/12 m-auto mb-5">
             <img src='/assets/images/SearchIcon.svg' className='absolute w-10 bottom-2 right-5 bg-white pl-4' />
-            <input type="text" placeholder="Titles, topic, authors" className="w-full p-2 pr-5 rounded-full indent-4" />
+            <input type="text" placeholder="Titles, author, and topics" className="w-full p-2 pr-5 rounded-full indent-4 font-poppins placeholder:font-poppins placeholder:text-[#AEAEAE]" />
         </div>
     </div>
   )
