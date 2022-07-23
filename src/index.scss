@@ -5,3 +5,7 @@
 :root{
     --black-transparent : rgba(0,0,0,0.8071603641456583);
 }
+
+.borrowed-card-detail-width{
+    width: calc(100% - 11.5rem)
+}
