@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root{
-    --black-transparent : rgba(0,0,0,0.8071603641456583);
-}
+:root {
+  --black-transparent: rgba(0,0,0,0.8071603641456583);
+}/*# sourceMappingURL=index.css.map */
