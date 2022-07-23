@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import mockUser from '../components/mockUser'
+import DataMock from '../components/mockData'
 import Header from '../components/Home/header'
 import Recomendation from '../components/Home/recomendation'
 
@@ -9,7 +9,7 @@ function Home() {
     <>
       <Header />
       <Recomendation />
-      {/* <Sidebar userInfo={mockUser} /> */}
+      {/* <Sidebar userInfo={DataMock} /> */}
     </>
   )
 }

@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
       },
+      backgroundImage: {
+        'topnav' : "url('./images/TopNavBackground.svg')",
+      },
     },
   },
   plugins: [],
