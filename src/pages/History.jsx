@@ -1,6 +1,8 @@
 import React from 'react'
-import HistoryCard from '../components/History/HistoryCard'
-import mockHistory from '../components/History/mockHistory'
+import HistoryCard from '../components/HistoryCard'
+import mockHistory from '../components/mockHistory'
+import Header from '../components/Home/header'
+import TopNav from '../components/TopNav'
 
 function History() {
   return (
@@ -13,4 +15,4 @@ function History() {
   )
 }
 
-export default History
+export default History;
