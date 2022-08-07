@@ -1,5 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import About from './pages/About';
+import Account from './pages/Account';
 import Borrowed from './pages/Borrowed';
 import Ejurnal from './pages/Ejurnal';
 import History from './pages/History';
@@ -15,6 +17,8 @@ function App() {
       <Route path="/ejurnal" element={<Ejurnal />} />
       <Route path="/borrowed" element={<Borrowed />} />
       <Route path="/loanhistory" element={<LoanHistory />} />
+      <Route path="/account" element={<Account />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 }

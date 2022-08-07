@@ -6,7 +6,7 @@ import PageHeader from '../components/PageHeader'
 function Borrowed() {
   return (
     <>
-        <PageHeader label={"Sedang Dipinjam"} previousUrl={'/'} />
+        <PageHeader label={"Sedang Dipinjam"} previousUrl={'/account'} />
         {DataMock.borrowing.map((item) => {
             return (
               <BorrowedCard key={item.id} thumbnail={item.thumbnail} title={item.title} deadline={item.deadline} />  

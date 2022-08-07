@@ -33,13 +33,13 @@ function Sidebar({userInfo}) {
           </Link>
         </div>
 
-        <div className="flex justify-start gap-x-6 items-center">
+        <Link to="/account" className="flex justify-start gap-x-6 items-center">
           <img src={userInfo.profileImage} className="w-14 h-14 rounded-full aspect-square bg-center border-2 border-slate-300" />
           <div className="flex flex-col">
             <h3 className="text-white text-lg font-poppins">{userInfo.name}</h3>
             <p className='text-white text-sm text-[#898989] font-poppins'>{userInfo.nim}</p>
           </div>
-        </div>
+        </Link>
 
         <div className="flex flex-col gap-6">
         {sidebarLink.map((link, index) => {
