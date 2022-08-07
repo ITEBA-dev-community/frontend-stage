@@ -11,6 +11,7 @@ You know, where you must go the library, fill an endless form, just to borrow a 
   <li>Open your terminal</li>
   Note: this guide runs well on git bash, bash, Zshell, gnome-terminal, and most linux distribution terminals, but it'll probably not gonna work on powershell or cmd
   <li>Make sure you have node JS and git installed, you can check it by running <code>node --version</code> and <code>git --version</code>.</li>
+  Note: node version 18+ is highly recommended, some code might not going to work like it supposed to on lower version.
   <li>Clone the repository by typing <code>git clone https://github.com/ITEBA-dev-community/frontend-stage.git</code>.</li>
   <li>Get into the directory by typing <code>cd frontend-stage</code> if you are on linux or git bash terminal.</li>
   <li>Install all dependency by running <code>npm i</code>, it may take a while.</li>
