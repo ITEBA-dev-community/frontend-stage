@@ -1,8 +1,8 @@
-const Header = () => {
+const Header = ({onClick}) => {
     return (
         <header className="h-56 w-full flex flex-col justify-between p-5 bg-cover bg-center" style={{ backgroundImage: "url('/assets/images/Group 428.png')" }}>
             <section className="icon flex justify-between">
-                <button className="humbergerMenu">
+                <button onClick={onClick} id="humbergerMenu">
                     <img src="/assets/images/grid.svg" alt="" />
                 </button>
 
