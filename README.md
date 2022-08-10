@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Batam Institute of Technology, Electronic Library App.
+This repository is the front-side or you might refer to it as the front-end, it's developed with React as the core technology. This app was designed to solve the tedious work of borrowing a book. 
+<br><br>
+You know, where you must go the library, fill an endless form, just to borrow a single book, not to mention several books. Simplicity is the best.
+<br><br>
+![view](https://user-images.githubusercontent.com/40969170/180212768-684d1173-bca0-491c-8c91-5aeeb3ee12a4.png)
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to get started
+<ul>
+  <li>Open your terminal</li>
+  Note: this guide runs well on git bash, bash, Zshell, gnome-terminal, and most linux distribution terminals, but it'll probably not gonna work on powershell or cmd
+  <li>Make sure you have node JS and git installed, you can check it by running <code>node --version</code> and <code>git --version</code>.</li>
+  Note: node version 18+ is highly recommended, some code might not going to work like it supposed to on lower version.
+  <li>Clone the repository by typing <code>git clone https://github.com/ITEBA-dev-community/frontend-stage.git</code>.</li>
+  <li>Get into the directory by typing <code>cd frontend-stage</code> if you are on linux or git bash terminal.</li>
+  <li>Install all dependency by running <code>npm i</code>, it may take a while.</li>
+  <li>Finnaly, run <code>npm start</code> and it will automatically open a new browser.</li>
+  If it's not opening new browser window got to <code>http://localhost:3000/</code> , it's probably there or on another port.
+</ul>
 
-## Available Scripts
+## Technologies
+<ul>
+  <li>React JS</li>
+  check the documentation <a href="https://reactjs.org/docs/getting-started.html">here</a>.
+  <li>Tailwind CSS</li>
+  check the documentation <a href="https://tailwindcss.com/docs/installation">here</a>.
+  <li>SASS</li>
+  check the documentation <a href="https://sass-lang.com/documentation/">here</a>.
+  <li>React Router</li>
+  check the documentation <a href="https://reactrouter.com/docs/en/v6">here</a>.
+  <li>Axios</li>
+  check the documentation <a href="https://axios-http.com/docs/intro">here</a>.
+  <li>TypeScript</li>
+  check the documentation <a href="https://www.typescriptlang.org/docs/">here</a>.
+</ul>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors for Frontend
+<a href="https://github.com/AndyNotfound">@AndyNotfound</a> 
+<br>
+<a href="https://github.com/Muhamadzulfikar">@Muhamad Zulfikar</a>

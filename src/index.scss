@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --black-transparent : rgba(0,0,0,0.8071603641456583);
+}
+
+@keyframes bouncex {
+    0%{
+        transform: translateX(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    } 
+    50% {
+      transform: translateX(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    100% {
+      transform: translateX(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+}
+
+.borrowed-card-detail-width{
+    width: calc(100% - 11.5rem)
+}
+
+.w-100vw{
+    width: 100vw;
+}
+
+.w-200vw{
+    width: 200vw;
+}
+
+.bouncex {
+    animation: bouncex 1s infinite;
+}
