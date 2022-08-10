@@ -52,6 +52,46 @@ const DataMock =
             history: '20 juli 2022',
             url: '/'
         }
+    ],
+    libary: [
+        {
+            id: '1',
+            imgSrc: '',
+            title: 'Tutorial Berpikir Benar',
+            subtitle: 'Karya Irwansyah Saputra'
+        },
+        {
+            id: '2',
+            imgSrc: '',
+            title: 'Belajar Javascript',
+            subtitle: 'Karya Muhamad Zulfikar'
+        },
+        {
+            id: '3',
+            imgSrc: '',
+            title: 'DID Functional Multicipy',
+            subtitle: 'Karya Yessica Mayasari'
+        },
+        {
+            id: '4',
+            imgSrc: '',
+            title: 'Belajar Javascript',
+            subtitle: 'Karya Muhamad Zulfikar'
+        }
+    ],
+    recomendation: [
+        {
+            id: '1',
+            name: 'Tutorial Berpikir Benar'
+        },
+        {
+            id: '2',
+            name: 'Belajar Javascript'
+        },
+        {
+            id: '3',
+            name: 'DID Functional Multicipy'
+        }
     ]
 }
 export default DataMock;
