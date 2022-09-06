@@ -56,42 +56,62 @@ const DataMock =
     libary: [
         {
             id: '1',
-            imgSrc: '',
+            imgSrc: './assets/images/tutorialBerpikirBenar.jpg',
             title: 'Tutorial Berpikir Benar',
             subtitle: 'Karya Irwansyah Saputra'
         },
         {
             id: '2',
-            imgSrc: '',
+            imgSrc: './assets/images/belajarJavascript.jpg',
             title: 'Belajar Javascript',
             subtitle: 'Karya Muhamad Zulfikar'
         },
         {
             id: '3',
-            imgSrc: '',
-            title: 'DID Functional Multicipy',
-            subtitle: 'Karya Yessica Mayasari'
+            imgSrc: './assets/images/belajarReact.png',
+            title: 'Belajar ReactJs',
+            subtitle: 'Karya Gohand Sitanggola'
         },
         {
             id: '4',
-            imgSrc: '',
-            title: 'Belajar Javascript',
-            subtitle: 'Karya Muhamad Zulfikar'
+            imgSrc: './assets/images/belajarJavascript.jpg',
+            title: 'DID Functional Multicipy',
+            subtitle: 'Karya Yessica Mayasari'
         }
-    ],
+        ],
     recomendation: [
         {
             id: '1',
+            imgSrc: './assets/images/tutorialBerpikirBenar.jpg',
             name: 'Tutorial Berpikir Benar'
         },
         {
             id: '2',
+            imgSrc: './assets/images/belajarJavascript.jpg',
             name: 'Belajar Javascript'
         },
         {
             id: '3',
-            name: 'DID Functional Multicipy'
+            imgSrc: './assets/images/belajarReact.png',
+            name: 'Belajar JavaScript'
         }
-    ]
+    ],
+    sidebar: [
+        {
+          name : 'FAQ',
+          icon: '/assets/images/faq-icon.svg',
+          target: '/faq'
+        },
+        {
+          name: 'Hubungi Admin',
+          icon: '/assets/images/admin-contact.svg',
+          target: '/admin-contact'
+        },
+        {
+          name: 'About',
+          icon: '/assets/images/about-icon.svg',
+          target: '/about'
+        }
+      ]
 }
 export default DataMock;
