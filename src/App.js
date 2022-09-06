@@ -7,6 +7,7 @@ import Ejurnal from './pages/Ejurnal';
 import History from './pages/History';
 import Home from './pages/Home';
 import LoanHistory from './pages/LoanHistory';
+import Profile from './pages/Profile';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/loanhistory" element={<LoanHistory />} />
       <Route path="/account" element={<Account />} />
       <Route path="/about" element={<About />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }
