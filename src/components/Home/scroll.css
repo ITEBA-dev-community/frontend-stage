@@ -1,0 +1,14 @@
+/* hide scrollbar but allow scrolling */
+.bookRecomendation {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.bookRecomendation::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
+.primary-color{
+    background: linear-gradient(180deg, #012E4A 0%, #023D63 37.5%, #035C95 100%);
+}

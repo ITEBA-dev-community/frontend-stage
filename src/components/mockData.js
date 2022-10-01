@@ -75,10 +75,10 @@ const DataMock =
         {
             id: '4',
             imgSrc: './assets/images/belajarJavascript.jpg',
-            title: 'Belajar Javascript',
-            subtitle: 'Karya Muhamad Zulfikar'
+            title: 'DID Functional Multicipy',
+            subtitle: 'Karya Yessica Mayasari'
         }
-    ],
+        ],
     recomendation: [
         {
             id: '1',

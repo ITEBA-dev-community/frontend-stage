@@ -19,13 +19,13 @@ const sidebarLink = [
   }
 ]
 
-function Sidebar({userInfo}) {
+function Sidebar({userInfo, className, onClick}) {
   return (
-    <aside className="h-full w-9/12 bg-gradient-to-t from-black via-[var(--black-transparent)] to-black fixed rounded-r-lg">
+    <aside className={className}>
       <div className="h-full w-10/12 flex flex-col m-auto justify-start gap-y-20 relative">
 
         <div className="flex justify-between items-center mt-4">
-          <button>
+          <button onClick={onClick}>
             <img src="/assets/images/back-arrow-icon.svg" className="w-8" />
           </button>
           <Link to="/">
